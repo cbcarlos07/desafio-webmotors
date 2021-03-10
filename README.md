@@ -9,16 +9,17 @@ Este projeto é para avaliação técnica de um desafio Frontend para a WebMotor
 
 Este projeto foi desenvolvido em ReactJS
 
+**Versão Web**
 
 ![alt text](https://github.com/cbcarlos07/desafio-webmotors/blob/main/img/web.PNG)
 
-Versão Web
 
 
+
+**Versão Mobile**
 
 ![alt text](https://github.com/cbcarlos07/desafio-webmotors/blob/main/img/mobile.PNG)
 
-Versão Mobile
 
 Enviar 
 
