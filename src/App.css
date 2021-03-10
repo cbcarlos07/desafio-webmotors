@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+.App{
+  background-color: #f4f4f4;
+  width: 955px;
+  height: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;  
+}
+.imgHeader{
+  padding: 12px 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aba{
+  list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle{
+  font-size: 10px;
+  color: gray !important
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.react-tabs__tab--selected{
+  color: #b3545d !important;
+  background: #f4f4f4 !important;
+  border-color: #f4f4f4 !important;
+  border-bottom: #b3545d 3px solid  !important;
+  position: fixed;
+  z-index: 2;
+}
+
+.react-tabs__tab-list{
+  border-bottom: 0 !important
+}
+
+ .btn-vender{
+  
+  color: #e88d09;
+  border: 2px solid #e88d09;
+  padding: 8px 28px;
+  background: #f4f4f4;
+  margin-left: 750px;  
+  font-weight: bold;
+  
+}
+
+.btn{
+  
+  margin-top: 20px;
+  position: absolute;
+}
+
+.main{
+  margin-left: 10px;
+}
+
+.title{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.aba{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carro{
+  margin-top: 35px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media (max-width: 1024px){
+  .App{
+    background-color: #f4f4f4;
+    width: 955px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;  
   }
-  to {
-    transform: rotate(360deg);
+  .title{
+    font-size: 52px;
+    font-weight: 500;
   }
+  .btn-vender{
+  
+    color: #e88d09;
+    border: 2px solid #e88d09;
+    padding: 8px 28px;
+    background: #f4f4f4;
+    margin-left: 650px;  
+    font-weight: bold;
+    width: 250px;
+    font-size: 22px;
+    
+  }
+
+  .btn{
+  
+    margin-top: 45px;
+    position: absolute;
+  }
+  
+  
 }

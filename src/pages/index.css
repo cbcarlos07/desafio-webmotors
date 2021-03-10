@@ -1,0 +1,368 @@
+.container{
+    background: white;
+    max-width: 933px;
+    height: 312px;
+    margin-top: -10px;
+    
+}
+
+.principal{
+    background-color: #fff;
+    padding-top: 62px;
+}
+
+.content{
+    margin-left: 42px;    
+    display: grid;
+    grid-template-columns: 458px 458px  ;
+    grid-template-rows: 5px;
+    grid-gap: 15px;
+}
+
+.box {
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 150%;
+  }
+
+
+.item1{
+    text-align: right;    
+    display: flex;    
+}
+
+
+.usados{
+    margin-left: 40px
+}
+
+.onde{
+    width: 230px;
+    
+}
+.raio{
+    width: 76px;
+}
+.item3{
+    display: flex;
+    
+}
+.item4{
+    display: flex;
+    
+    
+}
+.item5{
+    
+    margin-top: -20px;
+    padding-bottom: 5px;
+    display: flex;
+    
+}
+.item6{
+    margin-top: -20px;
+    
+}
+.modelo {
+    width: 118px
+}
+.marca {
+    width: 115px
+}
+
+.modelo1{
+    
+    margin-left: 10px;
+}
+
+.label{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 4px;
+    color: gray;
+}
+.labelAno{
+    font-size: 12px;
+    padding-top: 5px;
+    color: gray;
+    width: 100px;
+    padding-left: 4px;
+}
+
+.ano{
+    width: 110px;
+    margin-left: -10px;    
+}
+.faixa{
+    width: 115px;
+    margin-left: -10px;    
+}
+
+.versao{
+    width: 360px;
+}
+
+.versao select {
+    width: 300px;
+}
+.checkbox{
+    font-size: 15px;
+}
+
+.busca{
+    color: #b3545d;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.item8{
+    display: flex;
+}
+
+.filtro{
+    color: gray;
+    font-size: 15px;
+    margin-right: 12px;
+}
+
+.filtro:hover{
+    cursor: pointer;
+}
+
+.btn-ofertas{
+    font-weight: bold;
+    background: #ca2430;
+    color: white;
+    border: 0;
+    width: 270px;
+}
+
+
+
+
+input[type="checkbox"]:checked + span {
+    color: #D9534F ;
+}
+
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    margin-bottom: 15px;
+    border-color: gray;
+    border-radius: 5px;
+    border: gray 1px solid;
+    height: 30px;
+  }
+input{
+    padding-left: 15px;
+    border: 0 ;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 15px;    
+}
+
+input:focus {
+    background-color: #f7ece8;
+    outline: none;
+  }
+select{
+    padding-left: 15px;
+    border: 0 ;
+    height: 20px;
+    margin-top: 2px;
+    margin-left: 15px;    
+    padding-top: 5px;
+}
+
+select:focus {
+    background-color: #f7ece8;
+    outline: none;
+  }
+
+
+  
+.icon {
+    padding: 4px;
+
+    color: #D9534F;
+    width: 15px;
+    text-align: center;
+   
+}
+
+
+@media (max-width: 1024px)
+{
+    .container{
+        background: white;
+        max-width: 933px;
+        height: 312px;
+        margin-top: -10px;
+        
+    }
+    .content{
+        margin-left: 42px;    
+        grid-template-columns: 100%  ;
+        grid-template-rows: 5px;
+        grid-gap: 15px;
+    }
+
+    .checkbox{
+        font-size: 25px;
+    }
+
+    .box {
+        border-radius: 5px;
+        padding: 1px;
+        font-size: 150%;
+        width: 100%;
+    }
+
+    
+    .input-container {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        margin-bottom: 15px;
+        border-color: gray;
+        border-radius: 5px;
+        border: gray 1px solid;
+        height: 60px;
+    }
+
+    .label{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 4px;
+        color: gray;
+    }
+    .icon {
+        padding-top: 20px;
+    
+        color: #D9534F;
+        width: 25px;
+        text-align: center;
+       
+    }
+    
+    
+    .labelAno{
+        font-size: 12px;
+        padding-top: 5px;
+        color: gray;
+        width: 100px;
+        padding-left: 4px;
+    }
+    
+
+      
+    .item3{
+        display: flex;
+        width: 100%;        
+    }
+
+    .item4{
+        margin-top: -15px;
+    }
+
+    .onde{
+        width: 400px;
+        
+    }
+
+    .raio{
+        width: 190px;
+    }
+
+    .btn-ofertas{
+        width: 70%;
+        margin-right: 10%;
+    }
+
+    .modelo {
+        width: 300px
+    }
+    .marca {
+        width: 300px
+    }
+    
+    .modelo1{
+        
+        margin-left: 10px;
+    }
+
+    .ano{
+        width: 200px;
+        margin-left: 70px;    
+    }
+    
+    .faixa{
+        width: 295px;
+        margin-left: -10px;    
+    }
+
+    .versao{
+        width: 810px;
+    }
+    
+    .versao select {
+        width: 300px;
+    }
+
+    select{
+        padding-left: 15px;
+        border: 0 ;
+        height: 45px;
+        margin-top: 2px;
+        margin-left: 15px;    
+        padding-top: 15px;
+        font-size: 25px;
+    }
+
+    input{
+        padding-left: 15px;
+        border: 0 ;
+        height: 55px;
+        margin-top: 2px;
+        margin-left: 15px;
+        font-size: 25px;    
+    }
+
+    .busca{
+        text-align: center;
+        font-size: 34px;
+    }
+    .item8{
+        grid-template-columns: 100%  ;
+    }
+    .filtro{
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+        
+    }
+    
+    
+    .caixa {
+        border-radius: 5px;
+        padding: 1px;
+        font-size: 150%;
+    }
+
+    .labelAno{
+        font-size: 20px;
+        padding-top: 5px;
+        color: gray;
+        width: 100px;
+        padding-left: 4px;
+    }
+
+    .versao select {
+        width: 800px;
+    }
+    
+    
+
+
+    
+}
